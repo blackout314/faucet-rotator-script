@@ -1,0 +1,355 @@
+/* 
+
+Template 2023 Mini Blue
+
+http://www.tooplate.com/view/2023-mini-blue
+
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #75859c;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #203048;
+	background-image: url(../images/tooplate_body.jpg);
+	background-position: top center;
+	background-repeat: no-repeat
+}
+
+a, a:link, a:visited { 
+	color: #bac4d3; 
+	font-weight: 700; 
+	text-decoration: none; 
+	font-size: 11px; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+a.gototop { 
+	display: block; 
+	clear: both; 
+	float: right; 
+	width: 105px; 
+	height: 30px; 
+	background: url(../images/tooplate_gototop.png)  no-repeat; 
+	outline: none; 
+}
+
+a.gototop:hover { 
+	background: url(../images/tooplate_gototop_hover.png); 
+}
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#bac4d3; }
+cite span { color: #bac4d3; }
+em { color: #d7dfec; font-weight: 400 }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 20px; padding: 5px 0 10px; font-weight: 400; background: url(../images/tooplate_header.jpg) bottom repeat-x }
+h3 { font-size: 20px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0; }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { 
+	display: inline-block; 
+	border: 1px solid #314460; 
+	padding: 6px; 
+	background: #131e2e; 
+	margin-bottom: 5px; 
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 20px 0 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 20px; 
+}
+
+.tooplate_list { 
+	margin: 20px 0 20px 10px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.tooplate_list li { 
+	color:#bac4d3; 
+	margin: 0; 
+	padding: 0 0 5px 20px; 
+	background: url(../images/tooplate_list.jpg) no-repeat scroll 0 5px;  
+}
+
+.tooplate_list li a { 
+	color: #bac4d3; 
+	font-weight: normal; 
+	font-size: 12px; 
+	text-decoration: none; 
+}
+
+.tooplate_list li a:hover { 
+	color: #bac4d3; 
+	text-decoration: underline; 
+}
+
+#tooplate_wrapper {
+	width: 800px;
+	margin: 0 auto;
+	background: url(../images/tooplate_body.jpg) center top no-repeat
+}
+
+#templatmeo_header {
+	width: 800px;
+	height: 175px;
+	background: url(../images/tooplate_header.jpg) no-repeat top center
+}
+
+#social_box {
+	width: 800px;
+	height: 24px;
+	padding: 8px 0;
+	text-align: right
+}
+
+#social_box a { 
+	display: inline-block; 
+	padding-left: 30px; 
+	margin-left: 50px; 
+}
+
+#social_box a.facebook { 
+	background: url(../images/facebook.png) no-repeat left center; 
+}
+
+#social_box a.twitter { 
+	background: url(../images/twitter.png) no-repeat left center; 
+}
+
+#social_box a.myspace { 
+	background: url(../images/myspace.png) no-repeat left center; 
+}
+
+#site_title { 
+	clear: both; 
+	width: 800px; 
+	height: 95px;  
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 60px; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 161px; 
+	height: 31px; 
+	margin: 0 auto; 
+	text-indent: -10000px; 
+	background: url(../images/tooplate_logo.png); 
+}
+
+/* menu */
+
+#tooplate_menu { 
+	clear: both; 
+	width: 780px; 
+	height: 50px; 
+	padding: 0 10px; 
+	background: url(../images/tooplate_menubar.png); 
+}
+
+#tooplate_menu ul { 
+	width: 600px; 
+	padding: 0; 
+	margin: 0 auto; 
+	list-style: none; 
+}
+
+#tooplate_menu ul li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#tooplate_menu ul li a {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #7591ba;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+#tooplate_menu ul li a:hover, #tooplate_menu ul .current {
+	color: #fff;
+	background: url(../images/tooplate_menu_hover.png)
+}
+
+/* end of menu */
+
+#tooplate_main {
+	clear: both;
+	width: 800px;
+}
+
+.content_box {
+	clear: both;
+	padding: 30px;
+	margin-bottom: 30px; 
+	background: url(../images/tooplate_contentbg.jpg) center bottom no-repeat
+}
+
+.col_w340 { width: 340px }
+.col_w220 { width: 220px; float: left; }
+.col_mr30 { margin-right: 30px }
+
+.post_box { 
+	width: 340px; 
+	margin-bottom: 30px; 
+	padding-bottom: 20px; 
+	border-bottom: 1px dashed #000; 
+}
+
+.post_header { 
+	border-top: 3px solid #999; 
+	border-bottom: 1px solid #ccc; 
+	padding: 5px; 
+	margin-bottom: 20px; 
+}
+
+.post_box h3 { 
+	font-size: 24px; 
+	margin-bottom: 15px; 
+}
+
+.post_box p.post_meta { 
+	font-size: 10px; 
+	margin-bottom: 0; 
+	padding-bottom: 0; 
+}
+
+.post_box img { 
+	width: 320px; 
+	height: 120px; 
+	border: 1px solid #314460; 
+	padding: 6px; 
+	background: #131e2e; 
+}
+
+#gallery { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#gallery ul { 
+	margin: 0; 
+	padding: 0;
+}
+
+#gallery ul li { 
+	display: block; 
+	float: left; 
+	width: 214px; 
+	height: 110px; 
+	margin: 0 40px 50px 0;
+}
+
+#gallery ul .rm_col { 
+	margin: 0 0 50px; 
+}
+
+#gallery ul li a img { 
+	width: 204px;
+	height: 100px; 
+	border: 1px solid #314460; 
+	padding: 6px; 
+	background: #131e2e; 
+}
+
+#contact_form { 
+	padding: 0; 
+	width: 300px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 290px; 
+	padding: 5px; 
+	color: #75859C; 
+	border: 1px solid #314460;  
+	background: #131e2e; 
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 10px; 
+	font-size: 14px;
+}
+
+#contact_form form textarea { 
+	width: 288px; 
+	height: 150px; 
+	padding: 5px; 
+	color: #75859C; 
+	border: 1px solid #314460;  
+	background: #131e2e; 
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px; 
+}
+
+#contact_form form .submit_btn  {
+	margin: 5px 0px;
+	padding: 5px 14px;
+	border: 1px solid #314460;  
+	background: #131e2e; 
+	color: #75859c;
+	font-size: 14px;
+}
+
+#tooplate_footer {
+	clear: both;
+	width: 760px;
+	padding: 0 20px 20px;
+	text-align: center;
+	color: #e5efc8;
+	background: url(../images/tooplate_footer.jpg) center top no-repeat
+}
+
+#tooplate_footer a {
+	color: #fff;
+}
